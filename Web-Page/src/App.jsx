@@ -1,7 +1,9 @@
+import TarjetaAlumno from "./components/organisms/TarjetaAlumno";
+
 function App() {
   return (
     <div>
-      <h1>Mi Nueva Aplicación</h1>
+      <TarjetaAlumno nombre="Pepe" carrera="Mecanica"/>
     </div>
   )
 }
